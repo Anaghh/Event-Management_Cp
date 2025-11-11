@@ -1,0 +1,6 @@
+Tech Fest 2025|15-03-2025|Main Auditorium|200|1
+Cultural Night|20-03-2025|Open Ground|500|1
+Workshop on AI|25-03-2025|Computer Lab|50|1
+Sports Meet|30-03-2025|Sports Ground|300|0
+Coding Competition|01-04-2025|IT Block|100|0
+Salsa Workshop|04-11-2025|Reading Hall|500|1

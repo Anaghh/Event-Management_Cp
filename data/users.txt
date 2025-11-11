@@ -1,0 +1,4 @@
+admin,admin123,System Administrator,admin
+john,pass123,John Smith,student
+alice,alice456,Alice Johnson,student
+bob,bob789,Bob Wilson,student
