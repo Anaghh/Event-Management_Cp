@@ -471,7 +471,7 @@ void Admin::viewAllEvents() {
          << setw(20) << "VENUE" << " | "
          << setw(4) << "CAP" << " | "
          << setw(4) << "REG" << " | "
-         << "AVL" << endl;
+         << setw(4) << "AVL" << endl;
     cout << string(110, '=') << endl;
     
     for (size_t i = 0; i < events.size(); i++) {

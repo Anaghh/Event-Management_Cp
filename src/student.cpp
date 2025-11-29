@@ -159,7 +159,7 @@ void Student::viewAvailableEvents() {
          << setw(20) << "VENUE" << " | "
          << setw(4) << "CAP" << " | "
          << setw(4) << "REG" << " | "
-         << "AVL" << endl;
+         << setw(4) << "AVL" << endl;
     cout << string(110, '=') << endl;
     
     for (size_t i = 0; i < events.size(); i++) {
@@ -394,7 +394,7 @@ void Student::searchEventByName() {
          << setw(20) << "VENUE" << " | "
          << setw(4) << "CAP" << " | "
          << setw(4) << "REG" << " | "
-         << "AVL" << endl;
+         << setw(4) << "AVL" << endl;
     cout << string(110, '=') << endl;
     
     // Display each matching event
@@ -442,7 +442,7 @@ void Student::filterEventsByDate() {
          << setw(20) << "VENUE" << " | "
          << setw(4) << "CAP" << " | "
          << setw(4) << "REG" << " | "
-         << "AVL" << endl;
+         << setw(4) << "AVL" << endl;
     cout << string(110, '=') << endl;
     
     for (size_t i = 0; i < results.size(); i++) {

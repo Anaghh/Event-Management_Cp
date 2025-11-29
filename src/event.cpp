@@ -111,14 +111,12 @@ void Event::display(int index) const {
     // If index is provided (> 0), show the row number
     if (index > 0) cout << setw(2) << index << ". ";
     
-    // setw(n) sets the width for the next output (for alignment)
-    // left makes text align to the left within that width
     cout << left << setw(25) << eventName << " | "      // Event name (25 chars wide)
          << setw(12) << date << " | "                   // Date (12 chars wide)
          << setw(20) << venue << " | "                  // Venue (20 chars wide)
          << setw(4) << capacity << " | "                // Capacity (4 chars wide)
          << setw(4) << registeredCount << " | "         // Registered (4 chars wide)
-         << getAvailableSeats() << endl;                // Available seats
+         << setw(4) << getAvailableSeats() << endl;     // Available seats (4 chars wide)
 }
 
 // Display detailed event information
